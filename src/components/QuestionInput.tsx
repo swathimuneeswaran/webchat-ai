@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Loader2 } from 'lucide-react';
+import { Send } from 'lucide-react';
 import Button from './ui/Button'; // use Button component
 
 interface QuestionInputProps {
