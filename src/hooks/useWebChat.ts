@@ -3,7 +3,7 @@ import type { AppState, Message } from '../types';
 import { EXAMPLE_MESSAGES } from '../utils/constants';
 import { useToast } from '../context/toastContext';
 
-const API_BASE = 'http://localhost:3000/api'; // adjust if needed
+const API_BASE = 'http://54.80.228.75:3000/api'; // adjust if needed
 
 export const useWebChat = () => {
   const [state, setState] = useState<AppState>('input');
